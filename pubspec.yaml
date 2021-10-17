@@ -1,0 +1,28 @@
+name: epaypodcoderwithgetx
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.3.8
+  dio: 4.0.0
+  get_storage: 2.0.3
+  intl_phone_number_input: 0.7.0+2
+  credit_card_validator: 2.0.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  lints: 1.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/icons/logo.png
+  uses-material-design: true
+
